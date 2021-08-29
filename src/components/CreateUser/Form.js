@@ -26,8 +26,6 @@ const Form = (props) => {
         setAge('');
     }
 
-
-
     return (
         <div className={styles['form-container']}>
             <form onSubmit={submitHandler} >
